@@ -13,4 +13,16 @@ XRIEサボテンとかが出てくるので、ジャンプしてよけます。
 当たるとT-RexがXRIEになってGAME OVERになります。
 スペースキーでもう一度できます。
 
+## 今すぐ遊ぶ！
+
+[squidsky.github.io/xrie-game/index.html](https://squidsky.github.io/xrie-game/) で遊べます。
+
+ただし、以下の条件をクリアしていないと遊べません。
+
+・HTML5対応ブラウザ(%%Chrome推奨%%)
+
+・3DS,WiiUなどゲーム機のブラウザ以外である
+
+・Canvas,Audio対応
+
 
