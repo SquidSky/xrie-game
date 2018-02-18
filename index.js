@@ -495,7 +495,7 @@
             this.tRex.playingIntro = false;
             this.containerEl.style.webkitAnimation = '';
             this.playCount++;
-	    document.getElementById("bgm").play();
+
             // Handle tabbing off the page. Pause the current game.
             document.addEventListener(Runner.events.VISIBILITY,
                 this.onVisibilityChange.bind(this));
@@ -765,8 +765,6 @@
          * Game over state.
          */
         gameOver: function () {
-	    document.getElementById("bgm").pause();
-	    document.getElementById("bgm").load();
             this.playSound(this.soundFx.HIT);
             vibrate(200);
 
@@ -829,7 +827,6 @@
                 this.playSound(this.soundFx.BUTTON_PRESS);
                 this.invert(true);
                 this.update();
-		document.getElementById("bgm").play();
             }
         },
 
